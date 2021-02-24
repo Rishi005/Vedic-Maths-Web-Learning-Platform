@@ -1,0 +1,348 @@
+ffmpeg version 4.2.2 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 9.2.1 (GCC) 20200122
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libdav1d --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-amf --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/rishi/AppData/Local/Temp/KritaFFmpegProgress.KtAzcm'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'C:/learnings/html/vids/frame%04d.png'.
+Reading option '-crf' ... matched as AVOption 'crf' with argument '23'.
+Reading option '-preset' ... matched as AVOption 'preset' with argument 'medium'.
+Reading option '-profile:v' ... matched as option 'profile' (set profile) with argument 'baseline'.
+Reading option '-pix_fmt' ... matched as option 'pix_fmt' (set pixel format) with argument 'yuv420p'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'C:/learnings/html/vids/divending.mp4' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/rishi/AppData/Local/Temp/KritaFFmpegProgress.KtAzcm.
+[file @ 000001bd212db200] Setting default whitelist 'file,crypto'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url C:/learnings/html/vids/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: C:/learnings/html/vids/frame%04d.png.
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0000.png' for reading
+[file @ 000001bd2131ebc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326d80] Statistics: 100534 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0001.png' for reading
+[file @ 000001bd2133f940] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2133fac0] Statistics: 100534 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0002.png' for reading
+[file @ 000001bd2133fa00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131ecc0] Statistics: 105109 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0003.png' for reading
+[file @ 000001bd2133fa00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131ee80] Statistics: 105109 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0004.png' for reading
+[file @ 000001bd2133fa00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131f040] Statistics: 107602 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0005.png' for reading
+[file @ 000001bd2133fa00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131f200] Statistics: 107602 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0006.png' for reading
+[file @ 000001bd2133fa00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131f3c0] Statistics: 109162 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0007.png' for reading
+[file @ 000001bd2133fa00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131f580] Statistics: 109162 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0008.png' for reading
+[file @ 000001bd2133fa00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131f740] Statistics: 105586 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0009.png' for reading
+[file @ 000001bd2133fa00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326a40] Statistics: 105586 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0010.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 109690 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0011.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 109690 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0012.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 100534 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0013.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 100534 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0014.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 105109 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0015.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 105109 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0016.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 107602 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0017.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 107602 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0018.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 109162 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0019.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 109162 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0020.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 105586 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0021.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 105586 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0022.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 109690 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0023.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 109690 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0024.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 100534 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0025.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 100534 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0026.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 105109 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0027.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 105109 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0028.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 107602 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0029.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 107602 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0030.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 109162 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0031.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 109162 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0032.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 105586 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0033.png' for reading
+[file @ 000001bd21326a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21326b00] Statistics: 105586 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0034.png' for reading
+[file @ 000001bd2131f900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131fa00] Statistics: 109690 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0035.png' for reading
+[file @ 000001bd2131f900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131fa00] Statistics: 109690 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0036.png' for reading
+[file @ 000001bd2131f900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131fa00] Statistics: 100534 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0037.png' for reading
+[file @ 000001bd2131f900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131fa00] Statistics: 100534 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0038.png' for reading
+[file @ 000001bd2131f900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131fa00] Statistics: 105109 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0039.png' for reading
+[file @ 000001bd2131f900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131fa00] Statistics: 105109 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0040.png' for reading
+[file @ 000001bd2131f900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131fa00] Statistics: 107602 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0041.png' for reading
+[file @ 000001bd2131f900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131fa00] Statistics: 107602 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0042.png' for reading
+[file @ 000001bd2131f900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131fa00] Statistics: 109162 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0043.png' for reading
+[file @ 000001bd2131f900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131fa00] Statistics: 109162 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0044.png' for reading
+[file @ 000001bd2131f900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131fa00] Statistics: 105586 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0045.png' for reading
+[file @ 000001bd2131f900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131fa00] Statistics: 105586 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0046.png' for reading
+[file @ 000001bd2131f900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131fa00] Statistics: 109690 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0047.png' for reading
+[file @ 000001bd2131f900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd2131fa00] Statistics: 109690 bytes read, 0 seeks
+[image2 @ 000001bd2131b480] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'C:/learnings/html/vids/frame%04d.png':
+  Duration: 00:00:02.32, start: 0.000000, bitrate: N/A
+    Stream #0:0, 48, 1/25: Video: png, 1 reference frame, rgba(pc), 1440x1080 [SAR 3543:3543 DAR 4:3], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url C:/learnings/html/vids/divending.mp4.
+Applying option profile:v (set profile) with argument baseline.
+Applying option pix_fmt (set pixel format) with argument yuv420p.
+Successfully parsed a group of options.
+Opening an output file: C:/learnings/html/vids/divending.mp4.
+[file @ 000001bd2139da40] Setting default whitelist 'file,crypto'
+Successfully opened the file.
+detected 8 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 8 times
+[graph 0 input from stream 0:0 @ 000001bd2131f6c0] Setting 'video_size' to value '1440x1080'
+[graph 0 input from stream 0:0 @ 000001bd2131f6c0] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000001bd2131f6c0] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 000001bd2131f6c0] Setting 'pixel_aspect' to value '3543/3543'
+[graph 0 input from stream 0:0 @ 000001bd2131f6c0] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 0:0 @ 000001bd2131f6c0] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 000001bd2131f6c0] w:1440 h:1080 pixfmt:rgba tb:1/24 fr:24/1 sar:3543/3543 sws_param:flags=2
+[format @ 000001bd2131f500] Setting 'pix_fmts' to value 'yuv420p'
+[auto_scaler_0 @ 000001bd21b9ef00] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 000001bd21b9ef00] w:iw h:ih flags:'bicubic' interl:0
+[format @ 000001bd2131f500] auto-inserting filter 'auto_scaler_0' between the filter 'Parsed_null_0' and the filter 'format'
+[AVFilterGraph @ 000001bd21cbeac0] query_formats: 4 queried, 2 merged, 1 already done, 0 delayed
+[auto_scaler_0 @ 000001bd21b9ef00] w:1440 h:1080 fmt:rgba sar:3543/3543 -> w:1440 h:1080 fmt:yuv420p sar:1/1 flags:0x4
+[libx264 @ 000001bd2139cb40] using mv_range_thread = 40
+[libx264 @ 000001bd2139cb40] using SAR=1/1
+[libx264 @ 000001bd2139cb40] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 000001bd2139cb40] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
+[libx264 @ 000001bd2139cb40] 264 - core 159 - H.264/MPEG-4 AVC codec - Copyleft 2003-2019 - http://www.videolan.org/x264.html - options: cabac=0 ref=3 deblock=1:0:0 analyse=0x1:0x111 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=24 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'C:/learnings/html/vids/divending.mp4':
+  Metadata:
+    encoder         : Lavf58.29.100
+    Stream #0:0, 0, 1/12288: Video: h264 (libx264), 1 reference frame (avc1 / 0x31637661), yuv420p, 1440x1080 [SAR 1:1 DAR 4:3], 0/1, q=-1--1, 24 fps, 12288 tbn, 24 tbc
+    Metadata:
+      encoder         : Lavc58.54.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
+Clipping frame in rate conversion by 0.000008
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 39 times
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0048.png' for reading
+[file @ 000001bd2131eec0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21e75180] Statistics: 100534 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0049.png' for reading
+[file @ 000001bd2131eec0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21e75800] Statistics: 100534 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0050.png' for reading
+[file @ 000001bd2131eec0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21e75d40] Statistics: 105109 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0051.png' for reading
+[file @ 000001bd2131eec0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21e75800] Statistics: 105109 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0052.png' for reading
+[file @ 000001bd2131eec0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21e75800] Statistics: 107602 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0053.png' for reading
+[file @ 000001bd2131eec0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21e75d40] Statistics: 107602 bytes read, 0 seeks
+frame=   46 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0054.png' for reading
+[file @ 000001bd2131eec0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21e75a80] Statistics: 109162 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0055.png' for reading
+[file @ 000001bd2131eec0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21e75a80] Statistics: 109162 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0056.png' for reading
+[file @ 000001bd2131eec0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21e75940] Statistics: 105586 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001bd2131b480] Opening 'C:/learnings/html/vids/frame0057.png' for reading
+[file @ 000001bd21a73dc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001bd21e75800] Statistics: 105586 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 3 times
+[libx264 @ 000001bd2139cb40] frame=   0 QP=11.33 NAL=3 Slice:I Poc:0   I:6120 P:0    SKIP:0    size=23872 bytes
+[libx264 @ 000001bd2139cb40] frame=   1 QP=8.32 NAL=2 Slice:P Poc:2   I:25   P:50   SKIP:6045 size=247 bytes
+[libx264 @ 000001bd2139cb40] frame=   2 QP=21.09 NAL=2 Slice:P Poc:4   I:226  P:841  SKIP:5053 size=7710 bytes
+[libx264 @ 000001bd2139cb40] frame=   3 QP=10.11 NAL=2 Slice:P Poc:6   I:23   P:61   SKIP:6036 size=300 bytes
+[libx264 @ 000001bd2139cb40] frame=   4 QP=16.34 NAL=2 Slice:P Poc:8   I:183  P:863  SKIP:5074 size=6899 bytes
+[out_0_0 @ 000001bd2131f340] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[libx264 @ 000001bd2139cb40] frame=   5 QP=7.77 NAL=2 Slice:P Poc:10  I:28   P:55   SKIP:6037 size=290 bytes
+[libx264 @ 000001bd2139cb40] frame=   6 QP=21.47 NAL=2 Slice:P Poc:12  I:181  P:840  SKIP:5099 size=6771 bytes
+[libx264 @ 000001bd2139cb40] frame=   7 QP=11.14 NAL=2 Slice:P Poc:14  I:24   P:44   SKIP:6052 size=262 bytes
+[libx264 @ 000001bd2139cb40] frame=   8 QP=20.26 NAL=2 Slice:P Poc:16  I:187  P:903  SKIP:5030 size=6457 bytes
+[libx264 @ 000001bd2139cb40] frame=   9 QP=8.19 NAL=2 Slice:P Poc:18  I:30   P:45   SKIP:6045 size=281 bytes
+[libx264 @ 000001bd2139cb40] frame=  10 QP=24.01 NAL=2 Slice:P Poc:20  I:178  P:850  SKIP:5092 size=7041 bytes
+[libx264 @ 000001bd2139cb40] frame=  11 QP=10.25 NAL=2 Slice:P Poc:22  I:22   P:44   SKIP:6054 size=245 bytes
+[libx264 @ 000001bd2139cb40] frame=  12 QP=14.45 NAL=2 Slice:P Poc:24  I:340  P:733  SKIP:5047 size=9266 bytes
+[libx264 @ 000001bd2139cb40] frame=  13 QP=12.33 NAL=2 Slice:P Poc:26  I:33   P:63   SKIP:6024 size=378 bytes
+[libx264 @ 000001bd2139cb40] frame=  14 QP=21.14 NAL=2 Slice:P Poc:28  I:182  P:762  SKIP:5176 size=6920 bytes
+[libx264 @ 000001bd2139cb40] frame=  15 QP=6.62 NAL=2 Slice:P Poc:30  I:18   P:49   SKIP:6053 size=244 bytes
+[libx264 @ 000001bd2139cb40] frame=  16 QP=16.90 NAL=2 Slice:P Poc:32  I:164  P:845  SKIP:5111 size=6840 bytes
+[libx264 @ 000001bd2139cb40] frame=  17 QP=9.75 NAL=2 Slice:P Poc:34  I:32   P:41   SKIP:6047 size=290 bytes
+[libx264 @ 000001bd2139cb40] frame=  18 QP=21.19 NAL=2 Slice:P Poc:36  I:185  P:813  SKIP:5122 size=6776 bytes
+[libx264 @ 000001bd2139cb40] frame=  19 QP=9.07 NAL=2 Slice:P Poc:38  I:24   P:42   SKIP:6054 size=247 bytes
+[libx264 @ 000001bd2139cb40] frame=  20 QP=19.15 NAL=2 Slice:P Poc:40  I:193  P:867  SKIP:5060 size=6629 bytes
+[libx264 @ 000001bd2139cb40] frame=  21 QP=10.30 NAL=2 Slice:P Poc:42  I:23   P:40   SKIP:6057 size=252 bytes
+[libx264 @ 000001bd2139cb40] frame=  22 QP=21.60 NAL=2 Slice:P Poc:44  I:180  P:842  SKIP:5098 size=6924 bytes
+[libx264 @ 000001bd2139cb40] frame=  23 QP=7.62 NAL=2 Slice:P Poc:46  I:23   P:30   SKIP:6067 size=196 bytes
+[libx264 @ 000001bd2139cb40] frame=  24 QP=19.29 NAL=2 Slice:P Poc:48  I:321  P:802  SKIP:4997 size=9426 bytes
+[libx264 @ 000001bd2139cb40] frame=  25 QP=9.61 NAL=2 Slice:P Poc:50  I:35   P:51   SKIP:6034 size=383 bytes
+[libx264 @ 000001bd2139cb40] frame=  26 QP=21.76 NAL=2 Slice:P Poc:52  I:171  P:797  SKIP:5152 size=6963 bytes
+[libx264 @ 000001bd2139cb40] frame=  27 QP=8.97 NAL=2 Slice:P Poc:54  I:24   P:45   SKIP:6051 size=278 bytes
+[libx264 @ 000001bd2139cb40] frame=  28 QP=16.64 NAL=2 Slice:P Poc:56  I:173  P:823  SKIP:5124 size=7059 bytes
+[libx264 @ 000001bd2139cb40] frame=  29 QP=8.43 NAL=2 Slice:P Poc:58  I:29   P:53   SKIP:6038 size=290 bytes
+[libx264 @ 000001bd2139cb40] frame=  30 QP=23.51 NAL=2 Slice:P Poc:60  I:183  P:813  SKIP:5124 size=6704 bytes
+[libx264 @ 000001bd2139cb40] frame=  31 QP=14.41 NAL=2 Slice:P Poc:62  I:17   P:47   SKIP:6056 size=227 bytes
+[libx264 @ 000001bd2139cb40] frame=  32 QP=19.22 NAL=2 Slice:P Poc:64  I:188  P:820  SKIP:5112 size=6571 bytes
+[libx264 @ 000001bd2139cb40] frame=  33 QP=11.42 NAL=2 Slice:P Poc:66  I:26   P:43   SKIP:6051 size=284 bytes
+[libx264 @ 000001bd2139cb40] frame=  34 QP=23.19 NAL=2 Slice:P Poc:68  I:186  P:825  SKIP:5109 size=7253 bytes
+[libx264 @ 000001bd2139cb40] frame=  35 QP=9.89 NAL=2 Slice:P Poc:70  I:16   P:38   SKIP:6066 size=199 bytes
+[libx264 @ 000001bd2139cb40] frame=  36 QP=16.18 NAL=2 Slice:P Poc:72  I:366  P:737  SKIP:5017 size=9595 bytes
+[libx264 @ 000001bd2139cb40] frame=  37 QP=12.29 NAL=2 Slice:P Poc:74  I:32   P:47   SKIP:6041 size=312 bytes
+[libx264 @ 000001bd2139cb40] frame=  38 QP=19.09 NAL=2 Slice:P Poc:76  I:203  P:772  SKIP:5145 size=7094 bytes
+[libx264 @ 000001bd2139cb40] frame=  39 QP=7.82 NAL=2 Slice:P Poc:78  I:18   P:34   SKIP:6068 size=219 bytes
+[libx264 @ 000001bd2139cb40] frame=  40 QP=15.17 NAL=2 Slice:P Poc:80  I:185  P:839  SKIP:5096 size=7059 bytes
+[libx264 @ 000001bd2139cb40] frame=  41 QP=10.45 NAL=2 Slice:P Poc:82  I:22   P:44   SKIP:6054 size=268 bytes
+[libx264 @ 000001bd2139cb40] frame=  42 QP=20.78 NAL=2 Slice:P Poc:84  I:178  P:870  SKIP:5072 size=6814 bytes
+[libx264 @ 000001bd2139cb40] frame=  43 QP=12.24 NAL=2 Slice:P Poc:86  I:21   P:72   SKIP:6027 size=318 bytes
+[libx264 @ 000001bd2139cb40] frame=  44 QP=20.01 NAL=2 Slice:P Poc:88  I:192  P:787  SKIP:5141 size=6354 bytes
+[libx264 @ 000001bd2139cb40] frame=  45 QP=6.52 NAL=2 Slice:P Poc:90  I:23   P:49   SKIP:6048 size=255 bytes
+[libx264 @ 000001bd2139cb40] frame=  46 QP=22.83 NAL=2 Slice:P Poc:92  I:184  P:829  SKIP:5107 size=7058 bytes
+[libx264 @ 000001bd2139cb40] frame=  47 QP=9.36 NAL=2 Slice:P Poc:94  I:18   P:43   SKIP:6059 size=237 bytes
+[libx264 @ 000001bd2139cb40] frame=  48 QP=14.87 NAL=2 Slice:P Poc:96  I:344  P:821  SKIP:4955 size=9424 bytes
+[libx264 @ 000001bd2139cb40] frame=  49 QP=11.55 NAL=2 Slice:P Poc:98  I:31   P:44   SKIP:6045 size=292 bytes
+[libx264 @ 000001bd2139cb40] frame=  50 QP=20.35 NAL=2 Slice:P Poc:100 I:177  P:885  SKIP:5058 size=7144 bytes
+[libx264 @ 000001bd2139cb40] frame=  51 QP=8.09 NAL=2 Slice:P Poc:102 I:17   P:37   SKIP:6066 size=200 bytes
+[libx264 @ 000001bd2139cb40] frame=  52 QP=16.81 NAL=2 Slice:P Poc:104 I:175  P:806  SKIP:5139 size=6919 bytes
+[libx264 @ 000001bd2139cb40] frame=  53 QP=8.54 NAL=2 Slice:P Poc:106 I:26   P:36   SKIP:6058 size=219 bytes
+[libx264 @ 000001bd2139cb40] frame=  54 QP=20.37 NAL=2 Slice:P Poc:108 I:177  P:821  SKIP:5122 size=6448 bytes
+[libx264 @ 000001bd2139cb40] frame=  55 QP=9.71 NAL=2 Slice:P Poc:110 I:18   P:37   SKIP:6065 size=188 bytes
+[libx264 @ 000001bd2139cb40] frame=  56 QP=21.03 NAL=2 Slice:P Poc:112 I:176  P:816  SKIP:5128 size=5251 bytes
+[libx264 @ 000001bd2139cb40] frame=  57 QP=13.28 NAL=2 Slice:P Poc:114 I:18   P:21   SKIP:6081 size=121 bytes
+frame=   58 fps=0.0 q=-1.0 Lsize=     229kB time=00:00:02.37 bitrate= 789.7kbits/s speed=2.82x    
+[AVIOContext @ 000001bd2131b340] Statistics: 0 seeks, 2 writeouts
+video:228kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.457627%
+Input file #0 (C:/learnings/html/vids/frame%04d.png):
+  Input stream #0:0 (video): 58 packets read (6157450 bytes); 58 frames decoded; 
+  Total: 58 packets (6157450 bytes) demuxed
+Output file #0 (C:/learnings/html/vids/divending.mp4):
+  Output stream #0:0 (video): 58 frames encoded; 58 packets muxed (233378 bytes); 
+  Total: 58 packets (233378 bytes) muxed
+58 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 000001bd2139db00] Statistics: 2 seeks, 4 writeouts
+[libx264 @ 000001bd2139cb40] frame I:1     Avg QP:11.33  size: 23872
+[libx264 @ 000001bd2139cb40] frame P:57    Avg QP:14.61  size:  3665
+[libx264 @ 000001bd2139cb40] mb I  I16..4: 90.5%  0.0%  9.5%
+[libx264 @ 000001bd2139cb40] mb P  I16..4:  1.6%  0.0%  0.3%  P16..4:  4.1%  2.2%  0.6%  0.0%  0.0%    skip:91.2%
+[libx264 @ 000001bd2139cb40] coded y,uvDC,uvAC intra: 7.1% 21.3% 14.7% inter: 0.9% 2.0% 1.0%
+[libx264 @ 000001bd2139cb40] i16 v,h,dc,p: 86%  9%  4%  0%
+[libx264 @ 000001bd2139cb40] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 29% 18% 41%  2%  2%  3%  2%  2%  2%
+[libx264 @ 000001bd2139cb40] i8c dc,h,v,p: 72% 12% 16%  1%
+[libx264 @ 000001bd2139cb40] ref P L0: 70.2%  8.3% 21.5%
+[libx264 @ 000001bd2139cb40] kb/s:770.53
