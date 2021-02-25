@@ -103,23 +103,23 @@ var questions = [
     },
   {
       question: "What do you do if you end up with a 2 digit number?",
-      a: "you multiply it by 2",
-      b: "you add it to the answer",
-      c: "you carry it over to the next units place",
+      a: "You multiply it by 2",
+      b: "You add it to the answer",
+      c: "You carry it over to the next units place",
       answer: "C"
     },
   {
       question: "At the start you have to separate the..?",
-      a: "units and tens",
-      b: "hundreds and units",
-      c: "how many ever places there are in the largest number",
+      a: "Units and tens",
+      b: "Hundreds and units",
+      c: "How many ever places there are in the largest number",
       answer: "C"
     },
   {
       question: "Which way do you calculate?",
-      a: "left to right & up to down",
-      b: "left to right & down to up",
-      c: "right to left & up to down",
+      a: "Left to right & up to down",
+      b: "Left to right & down to up",
+      c: "Right to left & up to down",
       answer: "B"
     }
   ];

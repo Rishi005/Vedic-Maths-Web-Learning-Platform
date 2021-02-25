@@ -4,30 +4,30 @@ var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, correc
 var questions = [
   {
       question: "What do we separate?",
-      a: "units from the tens and hundreds",
-      b: "all: units, tens and hundreds",
-      c: "hundreds from the rest",
+      a: "Units from the tens and hundreds",
+      b: "All: units, tens and hundreds",
+      c: "Hundreds from the rest",
       answer: "A"
     },
   {
       question: "What is the first digit of your answer?",
-      a: "the units place of the divisor",
-      b: "the units place of the dividend",
-      c: "the largest place/the left most place",
+      a: "The units place of the divisor",
+      b: "The units place of the dividend",
+      c: "The largest place/the left most place",
       answer: "C"
     },
   {
       question: "What is the second digit of your answer?",
-      a: "the second digit of the dividend",
-      b: "the sum of the second and third digit of the dividend",
-      c: "the sum first and second digit of the dividend",
+      a: "The second digit of the dividend",
+      b: "The sum of the second and third digit of the dividend",
+      c: "The sum first and second digit of the dividend",
       answer: "C"
     },
   {
       question: "To find the remainder we...?",
-      a: "multiply everything together",
-      b: "add the tens place (from thw answer you just got) to the units place (of the dividend)",
-      c: "subtract the tens place from the units place (of the dividendS)",
+      a: "Multiply everything together",
+      b: "Add the tens place (from thw answer you just got) to the units place (of the dividend)",
+      c: "Subtract the tens place from the units place (of the dividendS)",
       answer: "B"
     }
   ];

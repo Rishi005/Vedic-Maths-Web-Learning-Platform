@@ -4,27 +4,27 @@ var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, correc
 var questions = [
   {
       question: "Which way do we subtract?",
-      a: "from right to left",
-      b: "from left to right",
-      c: "from down to up",
+      a: "From right to left",
+      b: "From left to right",
+      c: "From down to up",
       answer: "B"
     },
   {
       question: "What do we do when we have to subtract a bigger number from a smaller number?",
-      a: "you switch those numbers around and subtract the smaller number from the bigger one and draw a line above the answer to mark it",
-      b: "you add them together",
-      c: "you multiply them together",
+      a: "You switch those numbers around and subtract the smaller number from the bigger one and draw a line above the answer to mark it",
+      b: "You add them together",
+      c: "You multiply them together",
       answer: "A"
     },
   {
-      question: "what do the numbers with a bar/line on top represent?",
-      a: "the line is there just for dceroation",
-      b: "that they are positive numbers",
-      c: "that they are negative numbers",
+      question: "What do the numbers with a bar/line on top represent?",
+      a: "The line is there just for dceroation",
+      b: "That they are positive numbers",
+      c: "That they are negative numbers",
       answer: "C"
     },
   {
-      question: "what do we replace the bar numbers with when calculating the final step",
+      question: "What do we replace the bar numbers with when calculating the final step?",
       a: "0",
       b: "10",
       c: "-10",

@@ -3,31 +3,31 @@ var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, correc
 // this is a multidimensional array with 4 inner array elements with 5 elements inside them
 var questions = [
   {
-      question: "what do we multiply first?",
-      a: "the tens units",
-      b: "the units places",
-      c: "we don't multiply at all",
+      question: "What do we multiply first?",
+      a: "The tens units",
+      b: "The units places",
+      c: "We don't multiply at all",
       answer: "A"
     },
   {
       question: "What do we do after the first step?",
-      a: "multiply the units place",
-      b: "multiply the diagonal numbers",
-      c: "add the diagonal numbers",
+      a: "Multiply the units place",
+      b: "Multiply the diagonal numbers",
+      c: "Add the diagonal numbers",
       answer: "B"
     },
   {
-      question: "what is the last multiplication that we do?",
-      a: "multiply both the units places",
-      b: "multiply the top two numbers",
-      c: "multiply the tens place again",
+      question: "What is the last multiplication that we do?",
+      a: "Multiply both the units places",
+      b: "Multiply the top two numbers",
+      c: "Multiply the tens place again",
       answer: "A"
     },
   {
       question: "What do we do with our unfinished answer?",
-      a: "there is no step, that is the final answer",
-      b: "add them all together",
-      c: "carry the answers over to the left",
+      a: "There is no step, that is the final answer",
+      b: "Add them all together",
+      c: "Carry the answers over to the left",
       answer: "C"
     }
   ];
